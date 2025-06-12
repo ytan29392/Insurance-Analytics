@@ -1,0 +1,4 @@
+scripts/folder.py
+data/
+.venv/
+*csv
