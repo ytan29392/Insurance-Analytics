@@ -1,4 +1,5 @@
 scripts/folder.py
 data/
-.venv/
+venv/
 *csv
+__pycache__/
