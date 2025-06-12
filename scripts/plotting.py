@@ -16,3 +16,4 @@ def plot_boxplot(df, column):
     plt.tight_layout()
     plt.savefig(f'reports/{column}_boxplot.png')
     plt.close()
+ 
