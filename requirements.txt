@@ -13,3 +13,7 @@ plotly
 # PyYAML   
 # tqdm
 # python-dotenv
+
+# use to auto-format the code:
+# install it first and uuse this code: autopep8 --in-place --aggressive --aggressive .\folder\your_script.py
+autopep8
