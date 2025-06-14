@@ -9,7 +9,7 @@ plotly
 # xgboost
 # shap
 # lime
-# dvc
+dvc
 # PyYAML   
 # tqdm
 # python-dotenv

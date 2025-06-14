@@ -1,10 +1,12 @@
 import pandas as pd
 
 
-def load_data(path: str) -> pd.DataFrame:
-    """Load the dataset."""
-    # return pd.read_csv(path)
-    return pd.read_csv(path, on_bad_lines='skip')
+def load_data(path: str, sep: str = "|") -> pd.DataFrame:
+    """
+    Load the insurance dataset using a custom delimiter (pipe).
+    Automatically skips malformed rows.
+    """
+    return pd.read_csv(path, sep=sep, on_bad_lines='skip', engine='python')
 
 
 def summarize_numerical(df: pd.DataFrame, cols: list) -> pd.DataFrame:
