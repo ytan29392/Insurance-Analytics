@@ -1,7 +1,7 @@
-Insurance Risk Analytics Project
+# Insurance Risk Analytics Project
 
 
-# Objectives
+## Objectives
 
 - Perform **exploratory data analysis (EDA)** to identify trends in insurance claims.
 - Conduct **A/B hypothesis testing** to detect risk and profit differences by group.
@@ -9,13 +9,13 @@ Insurance Risk Analytics Project
 - Ensure **data versioning and reproducibility** using DVC and GitHub Actions.
 
 
-# Tasks 1 & 2
+## Tasks 1 & 2
 
 The goal is to explore real auto insurance data from South Africa, summarize trends in risk and premiums, and ensure reproducible, versioned workflows using DVC.
 
-## Task Overview
+### Task Overview
 
-### Task 1: Exploratory Data Analysis (EDA)
+#### Task 1: Exploratory Data Analysis (EDA)
 
 - Clean and summarize data
 - Visualize distributions and outliers
@@ -23,7 +23,7 @@ The goal is to explore real auto insurance data from South Africa, summarize tre
 - Identify patterns in TotalClaims and TotalPremium
 - Produce at least 3 key insight visualizations
 
-### Task 2: Data Version Control (DVC)
+#### Task 2: Data Version Control (DVC)
 
 - Initialize DVC and configure local storage
 - Add the raw dataset to DVC tracking
